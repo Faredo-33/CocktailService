@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Cocktail } from './cocktail';
+import { CocktailServiceService } from './cocktail-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CocktailService';
+  cocktails :Cocktail[]=[]
+  
 }
+
